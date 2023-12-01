@@ -1,0 +1,286 @@
+
+
+*{
+    margin: 0%;
+    border: 0%;
+}
+
+h2{
+    font-size: 40px;
+}
+/*Titulo*/
+header{
+ font-size: larger;
+}
+    #fond{
+        display:flex;
+        padding: 0%;
+        border: 0%;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 480px;
+        margin: 0%;
+}
+
+#log{
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+}
+#presentación{
+    top: 250px;
+    left: 350px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin: 0%;
+    color:white;
+    font-size: 250%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sub{
+    color:white;
+    text-align: center;
+    background-color: rgb(85, 79, 67);
+    height: 3pc;
+}
+.Desc_img_main{
+    margin-right: 50px;
+    padding-bottom: 13%;
+}
+
+
+
+a:link {
+    color:#666666;
+}
+a:hover{
+    color:azure;
+}
+a:active{
+    color:#666666;
+}
+a{
+    color:#666666;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+#gris{
+    background-color: #dcdcdc;
+    padding-left: 1.35%;
+}
+/*li a{
+    position: relative;
+}
+li a .trans{
+    position: absolute;  
+    top: 0;  
+    left: 0;
+    opacity: 0;
+    transition: 1.5s;
+}
+li a:hover .trans{
+    opacity: 1;
+}*/
+ul{
+    display:inline;
+    font-size:large;
+    background-color: #dcdcdc;
+    list-style-type: none;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+li{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    padding-left:2px;
+    padding-right:2px;
+    }
+.cat{
+    display: inline;
+    width: 400px;
+    height: 400px;
+}
+
+  .centrar{
+    font-family: 'Outfit:wght@200', sans-serif;
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer{
+    background-color: #dcdcdc;
+}
+#lista{
+    text-align: center;
+}
+.letra{
+    font-family: 'Outfit:wght@200', sans-serif;
+}
+.madera{
+    width: 25%;
+    margin-left: 100px;
+    font-size: larger;
+    color: black;
+    display: inline-block;
+    padding-right:50px;
+}
+h3{
+    text-align: center;
+    height: 50px;
+    padding: 3% 0;
+    display: inline;
+}
+
+.AcercaEmpresaTexto{
+    padding-top: 80px;
+}
+
+.contactanos{
+    padding-top: 60px;
+}
+.footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 130px;
+    display: flex;
+    padding-left: 5%;
+}
+.social{
+    padding-top: 2%;
+}
+.desc_main{
+    text-align: justify;
+    display: inline-block;
+    width: 30%;
+    height: 25%;
+    margin-left: 100px;
+    font-size: larger;
+    color: black;
+    padding-right:50px;
+    position: relative;
+    bottom: 50px;
+}
+.desc{
+    padding-left: 10%;
+    text-align: justify;
+    position: relative;
+    bottom:110px;
+    width: 30%;
+    font-size: larger;
+    color: black;
+    display: inline-block;
+}
+#puertas{
+    bottom: 150px;
+}
+#acabados{
+    bottom: 150px;
+}
+.slider{
+    margin-left: 5%;
+    margin-right: 5%; 
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.slides{ 
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 400px;
+    transition: 2s;
+}
+.nav-manual{
+    position: absolute;
+    width: 400px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #e5e5e5;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+        margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: black;
+}
+#R1:checked~.first{
+    margin-left: 0px;
+}
+#R2:checked~.first{
+    margin-left: -400px;
+}
+#R3:checked~.first{
+    margin-left: -800px;
+}
+#R4:checked~.first{
+    margin-left: -1200px;
+}
+.nav-auto{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    margin-top: 353px;
+    justify-content: center;
+}
+.nav-auto div{
+    display: flex;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.nav-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#R1:checked~.nav-auto .auto-btn1{
+    background-color: black;
+}
+#R2:checked~.nav-auto .auto-btn2{
+    background-color: black;
+}
+#R3:checked~.nav-auto .auto-btn3{
+    background-color: black;
+}
+#R4:checked~.nav-auto .auto-btn4{
+    background-color: black;
+}
+
+.img_des{
+    margin-left: 0%;
+    margin-right: 0%;   
+    height: 400px;
+    width: 400px;
+}
+.cabeza{
+    background-color: rgb(85, 79, 67);
+    color: white;
+    text-align:center;
+}
+/* Madera1*/
+
+
+/*
+a
+*/
